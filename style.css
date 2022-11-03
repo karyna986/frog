@@ -1,0 +1,230 @@
+
+.contr{
+    height: 1200px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+        left: 500px;
+    /* animation: jumpt 1s alternate infinite; */
+}
+
+@keyframes jumpt{
+    0% {
+        top: 100px;
+        left: 500px;
+    }
+    50% {
+        top: 0px;
+        left: 300px;
+    }
+    100%{
+        top: 100px;
+        left: 100px;
+    }
+}
+ .frog{
+     height: 300px;
+     width: 425px;
+     background-color: greenyellow;
+     border-radius: 50%;
+     position: relative;
+     top: 25px;
+     left: -16px;
+ }
+ .smile{
+     position: absolute;
+     height: 70px;
+     width: 150px;
+     border-radius: 0 0 200px 200px;
+     border: 5px solid rgb(10, 10, 10);
+     border-top-style: hidden;
+     top: 167px;
+     right: 123px;
+ }
+ .eyes1{
+     position: absolute;
+     height: 80px;
+     width: 80px;
+     border-radius: 100%;
+     background-color: greenyellow;
+     top: 0px;
+     left: 60px;
+     display: flex;
+     justify-content: center;
+     
+ }
+ .eyes2{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: greenyellow;
+    top: 0px;
+    right: 60px;
+    display: flex;
+    justify-content: center;
+ }
+ .zrach1{
+     margin-top: 10px;
+     height: 40px;
+     width: 40px;
+     background: white;
+     border-radius: 100%;
+     display: flex;
+     justify-content: center;
+ }
+ .zrach2{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    border-radius: 100%;
+ }
+ .crgh1{
+     margin-right: 0px;
+     margin-top: 8px;
+     height: 22px;
+     width: 22px;
+     background-color: black;
+     /* border: 5px solid black; */
+     /* border-radius: 100px 100px 0 0; */
+     /* border-bottom-style: hidden ; */
+     border-radius: 100%;
+ }
+ .crgh2{
+     margin-left: 9px;
+    margin-top: 8px;
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    /* border: 5px solid black;
+    border-radius: 100px 100px 0 0;
+    border-bottom-style: hidden ; */
+    border-radius: 100%;
+}
+.frog-body{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+    z-index: 3;
+}
+.hand-right{
+    height: 51px;
+    width: 89px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom:  -12px;
+    right: 0px; 
+    clip: rect(-15px, 92px, 36px, -10px);
+}
+.hand-left{
+    height: 51px;
+    width: 89px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom:  -12px;
+    left: 0px; 
+    clip: rect(-15px, 92px, 36px, -10px);
+}
+.leg-right{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(130, 192, 37);
+    border-radius: 50%;
+    position: absolute;
+    bottom:  0;
+    right: -80px;
+    transform: rotate(50deg);
+    animation: mukka2 1s alternate infinite;
+}
+@keyframes mukka2{
+    0% {
+        bottom:  0;
+        right: -80px;
+    }
+    100%{
+        bottom:  10px;
+        right: -90px;
+    }
+}
+.leg-right-small {
+    height: 51px;
+    width: 89px;
+    background-color: rgb(130, 192, 37);
+    border-radius: 50%;
+    position: absolute;
+    bottom:  -12px;
+    right: -30px;
+    transform: rotate(-49deg); 
+    clip: rect(-15px, 92px, 36px, -10px);
+}
+.leg-left-small{
+    height: 51px;
+    width: 89px;
+    background-color: rgb(130, 192, 37);
+    border-radius: 50%;
+    position: absolute;
+    bottom:  -12px;
+    left: -30px;
+    transform: rotate(49deg); 
+    clip: rect(-15px, 92px, 36px, -10px);
+}
+.leg-left{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(130, 192, 37);
+    border-radius: 50%;
+    position: absolute;
+    bottom:  0;
+    left: -80px;
+    transform: rotate(-50deg);
+    animation: mukka 1s alternate infinite;
+}
+@keyframes mukka{
+    0% {
+        bottom:  0;
+        left: -80px;
+    }
+    100%{
+        bottom:  10px;
+        left: -90px;
+    }
+}
+
+
+.stomac {
+    height: 127px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    left: 78px;
+    bottom: -25px;
+    z-index: 2;
+}
+.stomac-1 {
+    height: 160px;
+    width: 164px;
+    background-color: rgb(209, 245, 156);
+    border-radius: 50%;
+    position: absolute;
+    left: 71px;
+    bottom: -3px;
+    z-index: 3;
+}
+.stomac-2 {
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    margin: 0 auto;
+    z-index: 1;
+}
